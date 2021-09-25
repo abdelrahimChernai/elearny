@@ -1,0 +1,102 @@
+main {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 130px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	width: 440px;
+	gap: 40px;
+	max-height: 900px;
+}
+
+.form-container form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 400px;
+}
+
+.form-text-container {
+	display: flex;
+	text-align: center;
+	gap: 30px;
+	height: auto;
+}
+
+#down-arrow-icon {
+	width: 30px;
+	height: 20px;
+}
+
+.form-colored-text-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 200px;
+	height: 70px;
+	height: auto;
+	background-color: #5c6faf1f;
+	color: #5c6faf;
+	border-radius: 6px;
+}
+
+.form-container form input {
+	height: 40px;
+}
+
+.condition-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+
+
+label a {
+	color: #5c6faf;
+  text-decoration: none;
+}
+
+.form-container form input[type="submit"] {
+  color: #ffffff;
+  margin: 20px auto;
+
+}
+
+.illustration-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	height: 500px;
+}
+
+.log-sign-illustration {
+	height: 400px;
+	width: auto;
+}
+
+.sm-p {
+	max-width: 500px;
+}
+
+.log-options {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.log-option-btn {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.log-option-btn img{
+	height: 30px;
+	width: auto;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/log-sign.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <a href="../index.html">
+        <img id="nav-logo" src="img/logo.png" alt="">
+      </a>
+      </a>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#" class="nav-link">A propos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Cours</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contactes</a></li>
+      </ul>
+      <div class="nav-btns">
+        <button class="btn log-btn"><a href="login.html" class="nav-link">Connexion</a></button>
+        <button class="btn sign-btn"><a href="signin.html" class="nav-link">Inscription</a></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <div class="form-text-container">
+        <h1>Devenez Un</h1>
+        <div class="form-colored-text-container">
+          <h1>Etudiant</h1>
+          <img src="img/down-arrow.png" alt="" id="down-arrow-icon">
+        </div>
+      </div>
+      <form action="post">
+        <label for="full-name">Nom Complet</label>
+        <input type="text" name="full-name" id="full-name-input">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email-input">
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password-input">
+        <label for="c-password">Confirmer votre mot de passe</label>
+        <input type="password" name="c-password" id="c-password-input">
+        <label for="phone-nbr">Numero de telephone</label>
+        <input type="number" name="phone-nbr" id="phone-nbr-input">
+        <div class="condition-box">
+          <input type="checkbox" name="conditions" id="conditions-input">
+          <label for="condition">accepter les <a href="#">termes et conditions</a></label>
+        </div>
+        <input type="submit" class="btn sign-btn" value="Valider">
+      </form>
+    </div>
+
+    <div class="illustration-container">
+      <img class="log-sign-illustration" src="img/insciption-etu.png" alt="">
+      <p class="sm-p">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla obcaecati dicta quasi iure quidem vel eum esse maiores itaque, ullam illo possimus error dolorem corporis ad nam beatae quaerat!
+      </p>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+</html>
